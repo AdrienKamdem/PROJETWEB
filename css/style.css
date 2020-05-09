@@ -1,0 +1,66 @@
+
+																	/*PAGE D ACCEUIL CSS */
+
+body{ /*POLICE DE LA PAGE*/
+		font-family: 'Righteous', cursive;
+}															
+
+																/*PARTIE HEAD DE PAGES D ACCUEIL*/ /*OK*/
+
+
+.header{ /*TAILLE DU BLOC HEADER POUR FAIRE DESCENDRE SOUS IMAGE AUTRE DIV*/
+	height:470px;
+}
+
+img{ /*IMAGE DE FOND ||||| AJUSTER POUR PRENDRE LA PARTIE VOULU*/
+	width: 100%;
+	position: absolute;
+	z-index:1;
+	opacity: 1;
+}
+
+.headText{ /*TEXTE SUR L IMAGE*/
+	z-index:2;
+	position: absolute;
+}
+
+.logo{ /*LOGO*/
+	color: white;
+}
+
+.headText .btn{ /*BOUTON A COTE DU LOGO*/
+	margin-top: 12px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	font-size: 10px;
+}
+
+.headSlogan{ /*SLOGAN FIND YOURS*/
+	position: absolute;
+	color: white;
+	z-index: 2;
+	top: 250px;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+.headSlogan h1{ /*CENTRER LE SLOGAN*/
+	 margin-left: auto;
+    margin-right: auto;
+}
+
+															/*PARTIE FIL D ACTUALITE DE PAGES D ACCUEIL*//*OK*/
+
+/*FILTRE */
+
+.filtre{ /*ALIGNER TEXTE DES BOUTONS FILTRES AU CENTRE*/
+	text-align: center;
+}
+
+.filtre .btn{ /*GROSSIR LES BOUTONS*/
+	width: 100%;
+	height: 100%;
+}
+
+/*SEARCH BAR*/

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	<meta charset="utf-8" />
+	<title> Projet Dev Web </title>
+</head>
+
+
+<body>
+
+
+															<!--PAGE D ACCEUIL HTML -->	
+		
+			<!--PARTIE HEAD DE PAGES D ACCUEIL-->
+
+			<div class=" header"> 
+				  
+				    <img src="images/img1.png">
+
+					<div class=" headText container-fluid row ">
+
+						<h1 class="logo col-md-8">
+						E-shoes
+						</h1>
+						
+						<a class="btn btn-sm btn-outline-light col-md-1" href='https://www.google.fr/' target="_BLANK" >Connexion </a>
+						<a class="btn btn-sm btn-outline-light col-md-1" href='https://www.google.fr/' target="_BLANK" >Inscription</a>
+						<a class="btn btn-sm btn-outline-light col-md-1" href='https://www.google.fr/' target="_BLANK" >Boutique </a>	
+
+					</div>
+
+					<div class="headSlogan container-fluid row ">
+						<h1>
+							<b>Find yours</b> 
+						</h1>
+					</div>
+		
+			</div>
+
+
+
+			<!--PARTIE FIL D ACTUALITE DE PAGES D ACCUEIL-->
+
+			
+
+
+
+
+				   <table class=" filtre table table-bordered col-md-2">                <!--FILTRE-->
+
+						  <thead>
+						    <tr>
+						      <th scope="col">Filtres</th>
+						    </tr>
+						  </thead>
+
+
+						  <tbody>
+						  	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						    <tr>						 
+						     	 <td>
+							      		  <div class="panel panel-default">
+
+										    <div class="panel-heading" role="tab" id="headingOne">
+										      <h4 class="panel-title">
+										        <button class="btn btn-outline-dark" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										          Genres
+										        </button>
+										      </h4>
+										    </div>
+
+										    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											    <ul class="list-group">
+										          <li class="list-group-item"> <input type="checkbox" > Hommes</li>
+										          <li class="list-group-item"> <input type="checkbox" > Femmes</li>
+										          <li class="list-group-item"> <input type="checkbox" > Enfants</li>
+										        </ul>
+										    </div>
+
+									    </div>
+								</td>				
+						    </tr>
+
+						    <tr>
+						        <td>
+								      	<div class="panel panel-default">
+
+												    <div class="panel-heading" role="tab" id="headingTwo">
+												      <h4 class="panel-title">
+												        <button class="collapsed btn btn-outline-dark" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												          Tailles
+												        </button>
+												      </h4>
+												    </div>
+
+
+												    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+												        <ul class="list-group">
+												          <li class="list-group-item"> <input type="checkbox" > 40</li>
+												          <li class="list-group-item"> <input type="checkbox" > 41</li>
+												          <li class="list-group-item"> <input type="checkbox" > 42</li>
+												        </ul>
+												    </div>
+
+										  </div>
+						        </td>
+						    </tr>
+
+						    <tr>
+						    	<td>
+						    			<div class="panel panel-default">
+
+												    <div class="panel-heading" role="tab" id="headingThree">
+												      <h4 class="panel-title">
+												        <button class="collapsed btn btn-outline-dark" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												          Prix
+												        </button>
+												      </h4>
+												    </div>
+
+
+												    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+												        <ul class="list-group">
+												          <li class="list-group-item"> <input type="checkbox" > Prix Croissants</li>
+												          <li class="list-group-item"> <input type="checkbox" > Prix Decroissants</li>
+												        </ul>
+												    </div>
+
+
+										  </div>
+						    	 </td>
+						    </tr>
+
+						    <tr>
+						    	<td>
+						    		<input class="btn btn-outline-dark" type="submit" value="Submit">
+						    	</td>
+
+						    </tr>
+						 </div>
+
+						</tbody>
+				 </table>                                                    <!--OK-->
+
+
+
+
+					<nav class="rechercher navbar navbar-light bg-light">
+
+					  <form class="form-inline">
+					    <input class=" form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					    <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+					  </form>
+
+					</nav>
+
+
+
+
+
+
+</body>
+
+
+</html>
+
