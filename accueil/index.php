@@ -23,13 +23,15 @@
 
 					<div class=" headText container-fluid row ">
 
-						<h1 class="logo col-md-8">
+						<h1 class="logo col-md-7">
 						E-shoes
 						</h1>
 						
-						<a class="btn btn-sm btn-outline-light col-md-1" href='../connexion/connexion.php' target="_BLANK" >Connexion </a>
+						<a class="btn btn-sm btn-outline-light col-md-1" href='../connexion/connexion.php' target="_BLANK" >Connexion</a>
 						<a class="btn btn-sm btn-outline-light col-md-1" href='../inscription/inscription.php' target="_BLANK" >Inscription</a>
-						<a class="btn btn-sm btn-outline-light col-md-1" href='https://www.google.fr/' target="_BLANK" >Boutique </a>	
+						<a class="btn btn-sm btn-outline-light col-md-1" href='https://www.google.fr/' target="_BLANK" >Boutique</a>
+						<a class="btn btn-sm btn-outline-light col-md-1" href='https://www.google.fr/' target="_BLANK" >Gestion du Compte</a>
+							
 
 					</div>
 
